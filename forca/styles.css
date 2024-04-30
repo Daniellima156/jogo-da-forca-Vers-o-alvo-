@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    background-image: url('./img/plano.jpg');
+    background-size: cover;
+    font-family: monospace, Geneva, Tahoma, sans-serif;  
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.imagens {
+    display: flex;
+    margin-top: 50px;  
+}
+
+/* margin -200 acerta o alvo, 300 padrao aumenta em 100 em 100 */
+
+.flecha {
+    width: 200px;
+    margin-right: 300px;    
+}
+
+.boneco{
+    width: 15%; 
+    position: absolute;
+    right: 400px;
+    display: none;
+}
+
+
+.tracos {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    gap: 10px;
+    color: black;
+    flex-wrap: wrap;
+}
+.traco {
+    display: flex;
+    font-size: 40px;
+}
+
+.teclado {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teclado .btn {
+    width: 30px;
+    height: 30px;
+    margin: 4px;
+    font-size: 16px;
+    background-color: #46220f;
+    color: #e6aa77;
+    border: 1px solid white;
+}
+
+.regras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    
+}
+
+.container-regras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6aa77;
+    border: 3px solid #46220f;
+    border-radius: 30px;
+    line-height: 1.5;
+    width: 600px;
+    color: #46220f;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    text-align: center;
+    
+}
+
+.texto {
+    width: 500px;
+}
+
+.linhas {
+    display: flex;
+    gap: 400px;
+}
+
+.linha-vertical {
+    border-left: 10px solid #46220f;
+    height: 100px;
+}
+
+h4 {
+    text-align: left;
+}
+
+.btn-comecar {
+    background-color: #46220f;
+    color: white;
+    margin-bottom: 15px;
+    width: 120px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.dica {
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
