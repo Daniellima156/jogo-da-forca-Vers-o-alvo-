@@ -6,4 +6,6 @@ Estou bastante satisfeito com o resultado, principalmente pela velocidade que co
 
 
 ![Foto da tela inicial do jogo](fotoinicial.png)
+
+
 ![Foto do jogo](fotojogo.png)
